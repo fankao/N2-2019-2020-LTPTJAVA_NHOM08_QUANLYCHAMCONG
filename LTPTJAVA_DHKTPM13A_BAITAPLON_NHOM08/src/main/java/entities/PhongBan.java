@@ -2,6 +2,7 @@ package entities;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -17,7 +18,6 @@ public class PhongBan implements Serializable {
 	public PhongBan() {
 		// TODO Auto-generated constructor stub
 	}
-
 
 	public PhongBan(String maPB, String tenPB) {
 		super();

@@ -14,9 +14,12 @@ public interface ChiTietChamCongDAO {
 
 	public ChiTietChamCong layChiTietChamCong(ObjectId maNCC, ObjectId maNV);
 
+	public boolean xoaChiTietChamCong(ObjectId maNV);
+
 	public int tinhNgayDaChamCong(NhanVien nv);
+
 	public List<ChiTietChamCong> layDanhSachChiTietChamCong();
+
 	public List<ChiTietChamCong> layDanhSachChiTietChamCongTheoIdNV(ObjectId id);
-	
 
 }

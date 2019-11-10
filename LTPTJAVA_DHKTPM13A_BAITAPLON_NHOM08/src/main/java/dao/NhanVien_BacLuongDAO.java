@@ -12,5 +12,6 @@ public interface NhanVien_BacLuongDAO {
 	public NhanVien_BacLuong suaChiTietLuong(NhanVien_BacLuong ct);
 
 	public List<NhanVien_BacLuong> layChiTietBacLuong();
+
 	public NhanVien_BacLuong layChiTietBacLuongTheoIdNV(ObjectId id);
 }

@@ -223,7 +223,6 @@ public class PnlChamCong extends JPanel implements ActionListener {
 		gl_pnSoNgCC.linkSize(SwingConstants.VERTICAL, new Component[] { lblSoNgCham, txtSoNgay });
 		pnSoNgCC.setLayout(gl_pnSoNgCC);
 		pnChamCong.setLayout(gl_pnChamCong);
-		txtSoNgay.setText(tongSoNgayCham + " /26");
 		hienThongTinNV(nv);
 
 	}
@@ -288,8 +287,15 @@ public class PnlChamCong extends JPanel implements ActionListener {
 						"Xác nhận chấm công ngày " + txtNgayChamCong.getText() + " ?", "Thông báo chấm công",
 						JOptionPane.YES_NO_OPTION);
 				if (confirm == JOptionPane.YES_OPTION) {
-					ChiTietChamCong ctccMoi = new ChiTietChamCong(new NgayChamCong(LocalDate.now()), nhanVien, true);
-					ChiTietChamCong ct = chamCongControl.themChiTietChamCong(ctccMoi);
+					ChiTietChamCong ct;
+					if (chiTietChamCong == null) {
+						ChiTietChamCong ctccMoi = new ChiTietChamCong(new NgayChamCong(LocalDate.now()), nhanVien,
+								true);
+						ct = chamCongControl.themChiTietChamCong(ctccMoi);
+					} else {
+						chiTietChamCong.setDaChamCong(true);
+						ct = chamCongControl.suaChiTietChamCong(chiTietChamCong);
+					}
 					if (ct != null) {
 						tongSoNgayCham++;
 						txtSoNgay.setText(tongSoNgayCham + " /26");

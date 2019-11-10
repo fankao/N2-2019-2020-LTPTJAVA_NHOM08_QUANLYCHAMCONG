@@ -37,6 +37,7 @@ import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableModel;
 
 import control.BacLuongConTrol;
+import control.ChiTietChamCongControl;
 import control.NhanVienControl;
 import control.NhanVien_BacLuongControl;
 import control.PhongBanControl;
@@ -70,16 +71,19 @@ public class PnlQuanLyTaiKhoan extends JPanel implements ActionListener {
 	private JButton btnLuu;
 	private JButton btnXoa;
 	private JLabel lblQuyen;
-	private PhongBanControl phongbanControl;
+
 	private JButton btnSua;
 	private JButton btnHuy;
 
-	private BacLuongConTrol bacLuongConTrol;
-	private NhanVien_BacLuongControl chiTietLuongControl;
 	private JCheckBox chkBacLuong;
 	private JCheckBox chkChonPB;
 	private JComboBox<PhongBan> cmbChonPhongBan;
 	private JComboBox<BacLuong> cmbBacLuong;
+
+	private PhongBanControl phongbanControl;
+	private BacLuongConTrol bacLuongConTrol;
+	private NhanVien_BacLuongControl chiTietLuongControl;
+	private ChiTietChamCongControl chiTietChamCongControl;
 
 	public PnlQuanLyTaiKhoan() {
 		setLayout(new BorderLayout(0, 0));
@@ -544,14 +548,19 @@ public class PnlQuanLyTaiKhoan extends JPanel implements ActionListener {
 			try {
 				NhanVien nv = nhanVienControl
 						.layNhanVienTheoMa((String) tblDSNhanVien.getValueAt(tblDSNhanVien.getSelectedRow(), 1));
+
 				int confirm = JOptionPane.showConfirmDialog(this, "Có muốn xóa nhân viên này ?", "Xóa nhân viên",
 						JOptionPane.YES_NO_OPTION);
 				if (confirm == JOptionPane.YES_OPTION) {
+					chiTietChamCongControl = (ChiTietChamCongControl) Naming
+							.lookup("rmi://localhost:1099/chitietchamcong");
+					chiTietChamCongControl.xoaChiTietChamCong(nv.getId());
+
 					NhanVien nvXoa = nhanVienControl.xoaNhanVien(nv);
 					if (nvXoa != null) {
 						hienBangDanhSachNhanVien(nhanVienControl
 								.layDanhSachNhanVienTheoPhongBan(((PhongBan) cbbChonPB.getSelectedItem()).getMaPB()));
-						
+
 						TienIch.hienAnCacControl(false, btnHuy, btnLuu, btnSua, btnXoa, txtTenTaiKhoan, txtMatKhau);
 						TienIch.xoaTrangCacJTextField(txtMaNV, txtTenNV, txtTenTaiKhoan, txtMatKhau, txtChucVu);
 

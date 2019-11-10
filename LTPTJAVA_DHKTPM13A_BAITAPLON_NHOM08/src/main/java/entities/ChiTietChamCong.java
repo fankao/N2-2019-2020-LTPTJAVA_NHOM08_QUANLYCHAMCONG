@@ -20,8 +20,8 @@ public class ChiTietChamCong implements Serializable {
 	@JoinColumn(name = "ngaychamcong")
 	private NgayChamCong ngaychamcong;
 	@Id
-	@ManyToOne(cascade = CascadeType.ALL)
-	@JoinColumn(name = "nhanvien", updatable = true)
+	@ManyToOne(cascade = CascadeType.ALL, optional = false)
+	@JoinColumn(name = "nhanvien")
 	private NhanVien nhanvien;
 
 	private boolean daChamCong;

@@ -7,6 +7,7 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -36,8 +37,8 @@ public class NhanVien implements Serializable {
 	private String soDienThoai;
 	private boolean gioiTinh;
 
-	@ManyToOne(cascade = CascadeType.ALL)
-	@JoinColumn(name = "phongban")
+	@ManyToOne(cascade = CascadeType.MERGE, fetch = FetchType.EAGER)
+	@JoinColumn(name = "phongban", nullable = false, updatable = true)
 	private PhongBan phongBan;
 
 	@Embedded

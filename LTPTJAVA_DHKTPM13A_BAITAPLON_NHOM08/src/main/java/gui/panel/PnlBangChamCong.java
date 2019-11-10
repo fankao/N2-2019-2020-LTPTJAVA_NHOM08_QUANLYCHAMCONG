@@ -207,7 +207,6 @@ public class PnlBangChamCong extends JPanel implements ActionListener {
 		int i = 1;
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		tblModel.setRowCount(0);
-		// System.out.println(dsCTCC);
 		for (ChiTietChamCong ctcc : dsCTCC) {
 			if (ctcc.getNhanVien().getTaiKhoan().getQuyen() != 3) {
 				trangthai = ctcc.isDaChamCong() == true ? "Đã chấm công" : "Chưa chấm công";

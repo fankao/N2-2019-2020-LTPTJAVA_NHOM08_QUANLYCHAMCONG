@@ -95,10 +95,10 @@ public class ChiTietChamCongControlImpl extends UnicastRemoteObject implements C
 		return songaynghi;
 	}
 
-	public static void main(String[] args) throws RemoteException {
-		ChiTietChamCongControlImpl chamCongControlImpl = new ChiTietChamCongControlImpl();
-		System.out.println(
-				chamCongControlImpl.layDSCTNhanVienChamTheoThang(new ObjectId("5dc66395703d3d174cb51fa8"), 11));
+	@Override
+	public boolean xoaChiTietChamCong(ObjectId maNV) throws RemoteException {
+
+		return chiTietChamCongDAO.xoaChiTietChamCong(maNV);
 	}
 
 }

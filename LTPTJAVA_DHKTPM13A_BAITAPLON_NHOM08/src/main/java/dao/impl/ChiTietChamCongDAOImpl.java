@@ -7,10 +7,12 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Query;
 
 import org.bson.types.ObjectId;
+import org.hibernate.hql.ast.origin.hql.parse.HQLParser.new_key_return;
 
 import dao.ChiTietChamCongDAO;
 import entities.ChiTietChamCong;
 import entities.ChiTietChamCongPK;
+import entities.NgayChamCong;
 import entities.NhanVien;
 
 public class ChiTietChamCongDAOImpl implements ChiTietChamCongDAO {
@@ -78,6 +80,24 @@ public class ChiTietChamCongDAOImpl implements ChiTietChamCongDAO {
 		Query query = em.createNativeQuery(mql, ChiTietChamCong.class);
 		List<ChiTietChamCong> chamCongs = query.getResultList();
 		return chamCongs.size() == 0 ? null : chamCongs;
+	}
+
+	@Override
+	public boolean xoaChiTietChamCong(ObjectId maNV) {
+		String mql2 = "db.chitietchamcong.deleteMany({'_id.nhanvien':ObjectId('" + maNV + "')})";
+		EntityTransaction tr = em.getTransaction();
+		try {
+			tr.begin();
+			Query query2 = em.createNativeQuery(mql2, ChiTietChamCong.class);
+			query2.executeUpdate();
+			tr.commit();
+			return true;
+		} catch (Exception e) {
+			e.printStackTrace();
+			tr.rollback();
+
+		}
+		return false;
 	}
 
 }
