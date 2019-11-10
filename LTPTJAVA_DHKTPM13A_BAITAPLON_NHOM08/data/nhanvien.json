@@ -33,7 +33,7 @@
 		"taiKhoan": {
 			"tenDangNhap": "nv002",
 			"matKhau": "000000",
-			"quyen": 1
+			"quyen": 2
 		}
 	},
 	{
@@ -71,7 +71,7 @@
 		"taiKhoan": {
 			"tenDangNhap": "nv001",
 			"matKhau": "000000",
-			"quyen": 1
+			"quyen": 2
 		}
 	},
 	{
@@ -138,7 +138,7 @@
 		"hoVaTen": "Hoài Thương",
 		"soDienThoai": "0852369741",
 		"taiKhoan": {
-			"quyen": 2,
+			"quyen": 1,
 			"matKhau": "000000",
 			"tenDangNhap": "nv008"
 		},
@@ -176,7 +176,7 @@
 		"hoVaTen": "Phạm Huy",
 		"soDienThoai": "0741258963",
 		"taiKhoan": {
-			"quyen": 2,
+			"quyen": 1,
 			"matKhau": "000000",
 			"tenDangNhap": "nv0010"
 		},
