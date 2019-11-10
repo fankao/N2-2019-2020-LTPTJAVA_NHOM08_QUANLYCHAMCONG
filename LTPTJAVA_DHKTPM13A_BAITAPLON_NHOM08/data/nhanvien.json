@@ -1,0 +1,210 @@
+[
+	{
+		"_id": {
+			"$oid": "5dbd32d353307afd4f26b0ec"
+		},
+		"maNV": "NV001",
+		"hoVaTen": "Tran Thi Binh",
+		"ngaySinh": "1999-03-02",
+		"soCMND": "258963147",
+		"email": "thibinh@gmail.com",
+		"luongCoBan": 2.2e+06,
+		"soDienThoai": "0883258741",
+		"gioiTinh": false,
+		"phongban": "PB002",
+		"taiKhoan": {
+			"tenDangNhap": "nv002",
+			"matKhau": "000000",
+			"quyen": 2
+		}
+	},
+	{
+		"_id": {
+			"$oid": "5dbd32d353307afd4f26b0ed"
+		},
+		"maNV": "NV002",
+		"hoVaTen": "Thanh Tri",
+		"ngaySinh": "1999-03-02",
+		"soCMND": "258963147",
+		"email": "thibinh@gmail.com",
+		"luongCoBan": 2.2e+06,
+		"soDienThoai": "0883258741",
+		"gioiTinh": false,
+		"phongban": "PB003",
+		"taiKhoan": {
+			"tenDangNhap": "nv003",
+			"matKhau": "000000",
+			"quyen": 2
+		}
+	},
+	{
+		"_id": {
+			"$oid": "5dbd32d353307afd4f26b0ee"
+		},
+		"maNV": "ADMIN",
+		"hoVaTen": "Minh Chien",
+		"ngaySinh": "1999-08-02",
+		"soCMND": "258963147",
+		"email": "thang@gmail.com",
+		"luongCoBan": 2.2e+06,
+		"soDienThoai": "0963258774",
+		"gioiTinh": true,
+		"taiKhoan": {
+			"tenDangNhap": "ADMIN",
+			"matKhau": "000000",
+			"quyen": 3
+		}
+	},
+	{
+		"_id": {
+			"$oid": "5dbd32d353307afd4f26b0ef"
+		},
+		"maNV": "NV003",
+		"hoVaTen": "Gia Hung",
+		"ngaySinh": "1999-12-02",
+		"soCMND": "258963147",
+		"email": "binh@gmail.com",
+		"luongCoBan": 2e+06,
+		"soDienThoai": "0963258741",
+		"gioiTinh": true,
+		"phongban": "PB001",
+		"taiKhoan": {
+			"tenDangNhap": "nv001",
+			"matKhau": "000000",
+			"quyen": 2
+		}
+	},
+	{
+		"_id": {
+			"$oid": "5dc6628e703d3d174cb51fa4"
+		},
+		"hoVaTen": "Minh Chien",
+		"soDienThoai": "0963258741",
+		"taiKhoan": {
+			"quyen": 1,
+			"matKhau": "000000",
+			"tenDangNhap": "nv004"
+		},
+		"soCMND": "258963147",
+		"ngaySinh": "2019-11-07",
+		"gioiTinh": true,
+		"phongban": "PB003",
+		"luongCoBan": 1.2e+07,
+		"email": "chien@gmail.com",
+		"maNV": "NV004"
+	},
+	{
+		"_id": {
+			"$oid": "5dc662ca703d3d174cb51fa6"
+		},
+		"hoVaTen": "Thanh Hung",
+		"soDienThoai": "0852369741",
+		"taiKhoan": {
+			"quyen": 1,
+			"matKhau": "000000",
+			"tenDangNhap": "nv005"
+		},
+		"soCMND": "254365123",
+		"ngaySinh": "1999-11-17",
+		"gioiTinh": true,
+		"phongban": "PB001",
+		"luongCoBan": 1.2e+07,
+		"email": "hung@gmail.com",
+		"maNV": "NV005"
+	},
+	{
+		"_id": {
+			"$oid": "5dc66347703d3d174cb51fa7"
+		},
+		"hoVaTen": "Nguyen Oanh",
+		"soDienThoai": "0136589745",
+		"taiKhoan": {
+			"quyen": 1,
+			"matKhau": "",
+			"tenDangNhap": ""
+		},
+		"soCMND": "201566987",
+		"ngaySinh": "1998-11-18",
+		"gioiTinh": false,
+		"phongban": "PB001",
+		"luongCoBan": 6e+06,
+		"email": "Oanh@gmail.com",
+		"maNV": "NV006"
+	},
+	{
+		"_id": {
+			"$oid": "5dc66395703d3d174cb51fa8"
+		},
+		"hoVaTen": "Tran Hung",
+		"soDienThoai": "06874549602",
+		"taiKhoan": {
+			"quyen": 1,
+			"matKhau": "000000",
+			"tenDangNhap": "nv007"
+		},
+		"soCMND": "123584596",
+		"ngaySinh": "1999-09-13",
+		"gioiTinh": true,
+		"phongban": "PB003",
+		"luongCoBan": 6e+06,
+		"email": "Hung12@gmail.com",
+		"maNV": "NV007"
+	},
+	{
+		"_id": {
+			"$oid": "5dc663be703d3d174cb51fa9"
+		},
+		"hoVaTen": "Nguyen Hien",
+		"soDienThoai": "0987689878",
+		"taiKhoan": {
+			"quyen": 1,
+			"matKhau": "",
+			"tenDangNhap": ""
+		},
+		"soCMND": "123568956",
+		"ngaySinh": "1999-11-25",
+		"gioiTinh": false,
+		"phongban": "PB001",
+		"luongCoBan": 5e+06,
+		"email": "Hien@gmail.com",
+		"maNV": "NV008"
+	},
+	{
+		"_id": {
+			"$oid": "5dc67ed4e8586927d4159c69"
+		},
+		"hoVaTen": "Tran Dan",
+		"soDienThoai": "01258965478",
+		"taiKhoan": {
+			"quyen": 1,
+			"matKhau": "000000",
+			"tenDangNhap": "nv009"
+		},
+		"soCMND": "235698745",
+		"ngaySinh": "1999-08-18",
+		"gioiTinh": true,
+		"phongban": "PB003",
+		"luongCoBan": 1.1e+06,
+		"email": "Dan123@gmail.com",
+		"maNV": "NV009"
+	},
+	{
+		"_id": {
+			"$oid": "5dc67f07e8586927d4159c6a"
+		},
+		"hoVaTen": "Nguyen Danh",
+		"soDienThoai": "0987876547",
+		"taiKhoan": {
+			"quyen": 1,
+			"matKhau": "000000",
+			"tenDangNhap": "nv0010"
+		},
+		"soCMND": "256321458",
+		"ngaySinh": "1999-05-05",
+		"gioiTinh": true,
+		"phongban": "PB003",
+		"luongCoBan": 2e+06,
+		"email": "Danh1@gmail.com",
+		"maNV": "NV0010"
+	}
+]

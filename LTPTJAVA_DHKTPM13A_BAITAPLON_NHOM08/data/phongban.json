@@ -1,0 +1,15 @@
+
+[
+	{
+		"_id": "PB001",
+		"tenPB": "Kinh doanh"
+	},
+	{
+		"_id": "PB002",
+		"tenPB": "Hành chính"
+	},
+	{
+		"_id": "PB003",
+		"tenPB": "Nghiệp vụ"
+	}
+]
