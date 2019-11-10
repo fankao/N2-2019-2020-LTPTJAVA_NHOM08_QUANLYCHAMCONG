@@ -1,52 +1,14 @@
 [
 	{
 		"_id": {
-			"$oid": "5dbd32d353307afd4f26b0ec"
-		},
-		"maNV": "NV001",
-		"hoVaTen": "Tran Thi Binh",
-		"ngaySinh": "1999-03-02",
-		"soCMND": "258963147",
-		"email": "thibinh@gmail.com",
-		"luongCoBan": 2.2e+06,
-		"soDienThoai": "0883258741",
-		"gioiTinh": false,
-		"phongban": "PB002",
-		"taiKhoan": {
-			"tenDangNhap": "nv002",
-			"matKhau": "000000",
-			"quyen": 2
-		}
-	},
-	{
-		"_id": {
-			"$oid": "5dbd32d353307afd4f26b0ed"
-		},
-		"maNV": "NV002",
-		"hoVaTen": "Thanh Tri",
-		"ngaySinh": "1999-03-02",
-		"soCMND": "258963147",
-		"email": "thibinh@gmail.com",
-		"luongCoBan": 2.2e+06,
-		"soDienThoai": "0883258741",
-		"gioiTinh": false,
-		"phongban": "PB003",
-		"taiKhoan": {
-			"tenDangNhap": "nv003",
-			"matKhau": "000000",
-			"quyen": 2
-		}
-	},
-	{
-		"_id": {
 			"$oid": "5dbd32d353307afd4f26b0ee"
 		},
 		"maNV": "ADMIN",
-		"hoVaTen": "Minh Chien",
+		"hoVaTen": "Trần Văn Thắng",
 		"ngaySinh": "1999-08-02",
 		"soCMND": "258963147",
 		"email": "thang@gmail.com",
-		"luongCoBan": 2.2e+06,
+		"luongCoBan": 2.2E+06,
 		"soDienThoai": "0963258774",
 		"gioiTinh": true,
 		"taiKhoan": {
@@ -57,154 +19,230 @@
 	},
 	{
 		"_id": {
-			"$oid": "5dbd32d353307afd4f26b0ef"
+			"$oid": "5dbd32d353307afd4f26b0ec"
+		},
+		"maNV": "NV002",
+		"hoVaTen": "Trần Thị Định",
+		"ngaySinh": "1999-03-02",
+		"soCMND": "111111111",
+		"email": "thibinh@gmail.com",
+		"luongCoBan": 2.2E+06,
+		"soDienThoai": "0883258741",
+		"gioiTinh": false,
+		"phongban": "PB002",
+		"taiKhoan": {
+			"tenDangNhap": "nv002",
+			"matKhau": "000000",
+			"quyen": 1
+		}
+	},
+	{
+		"_id": {
+			"$oid": "5dbd32d353307afd4f26b0ed"
 		},
 		"maNV": "NV003",
-		"hoVaTen": "Gia Hung",
-		"ngaySinh": "1999-12-02",
+		"hoVaTen": "Nguyễn Thị Bình",
+		"ngaySinh": "1999-03-02",
 		"soCMND": "258963147",
-		"email": "binh@gmail.com",
-		"luongCoBan": 2e+06,
-		"soDienThoai": "0963258741",
-		"gioiTinh": true,
-		"phongban": "PB001",
+		"email": "thibinh@gmail.com",
+		"luongCoBan": 2.2E+06,
+		"soDienThoai": "0883258741",
+		"gioiTinh": false,
+		"phongban": "PB002",
 		"taiKhoan": {
-			"tenDangNhap": "nv001",
+			"tenDangNhap": "nv003",
 			"matKhau": "000000",
 			"quyen": 2
 		}
 	},
 	{
 		"_id": {
-			"$oid": "5dc6628e703d3d174cb51fa4"
+			"$oid": "5dbd32d353307afd4f26b0ef"
 		},
-		"hoVaTen": "Minh Chien",
-		"soDienThoai": "0963258741",
-		"taiKhoan": {
-			"quyen": 1,
-			"matKhau": "000000",
-			"tenDangNhap": "nv004"
-		},
+		"maNV": "NV001",
+		"hoVaTen": "Nguyễn Văn Bình",
+		"ngaySinh": "1999-12-02",
 		"soCMND": "258963147",
-		"ngaySinh": "2019-11-07",
+		"email": "binh@gmail.com",
+		"luongCoBan": 2E+06,
+		"soDienThoai": "0963258741",
 		"gioiTinh": true,
-		"phongban": "PB003",
-		"luongCoBan": 1.2e+07,
-		"email": "chien@gmail.com",
-		"maNV": "NV004"
+		"phongban": "PB001",
+		"taiKhoan": {
+			"tenDangNhap": "nv001",
+			"matKhau": "000000",
+			"quyen": 1
+		}
 	},
 	{
 		"_id": {
-			"$oid": "5dc662ca703d3d174cb51fa6"
+			"$oid": "5dbee52cf587153a945b0de5"
 		},
-		"hoVaTen": "Thanh Hung",
-		"soDienThoai": "0852369741",
+		"hoVaTen": "Hoàng Sơn",
+		"soDienThoai": "0852147963",
 		"taiKhoan": {
 			"quyen": 1,
 			"matKhau": "000000",
 			"tenDangNhap": "nv005"
 		},
-		"soCMND": "254365123",
-		"ngaySinh": "1999-11-17",
+		"soCMND": "258741368",
+		"ngaySinh": "1998-11-03",
 		"gioiTinh": true,
-		"phongban": "PB001",
-		"luongCoBan": 1.2e+07,
-		"email": "hung@gmail.com",
+		"phongban": "PB002",
+		"luongCoBan": 1.2E+06,
+		"email": "son@mail.com",
 		"maNV": "NV005"
 	},
 	{
 		"_id": {
-			"$oid": "5dc66347703d3d174cb51fa7"
+			"$oid": "5dbee5eff587153a945b0de6"
 		},
-		"hoVaTen": "Nguyen Oanh",
-		"soDienThoai": "0136589745",
+		"hoVaTen": "Thanh Thuỳ Linh",
+		"soDienThoai": "0852364125",
 		"taiKhoan": {
 			"quyen": 1,
-			"matKhau": "",
-			"tenDangNhap": ""
+			"matKhau": "000000",
+			"tenDangNhap": "nv006"
 		},
-		"soCMND": "201566987",
-		"ngaySinh": "1998-11-18",
+		"soCMND": "258963145",
+		"ngaySinh": "1988-07-06",
 		"gioiTinh": false,
-		"phongban": "PB001",
-		"luongCoBan": 6e+06,
-		"email": "Oanh@gmail.com",
+		"phongban": "PB002",
+		"luongCoBan": 1.3E+06,
+		"email": "thuy@gmail.com",
 		"maNV": "NV006"
 	},
 	{
 		"_id": {
-			"$oid": "5dc66395703d3d174cb51fa8"
+			"$oid": "5dbf7e2bf587153c14c77088"
 		},
-		"hoVaTen": "Tran Hung",
-		"soDienThoai": "06874549602",
+		"hoVaTen": "Huy Bình",
+		"soDienThoai": "0852369741",
 		"taiKhoan": {
 			"quyen": 1,
 			"matKhau": "000000",
 			"tenDangNhap": "nv007"
 		},
-		"soCMND": "123584596",
-		"ngaySinh": "1999-09-13",
+		"soCMND": "258963214",
+		"ngaySinh": "1999-11-03",
 		"gioiTinh": true,
-		"phongban": "PB003",
-		"luongCoBan": 6e+06,
-		"email": "Hung12@gmail.com",
+		"phongban": "PB001",
+		"luongCoBan": 1.2E+06,
+		"email": "binh@gmail.com",
 		"maNV": "NV007"
 	},
 	{
 		"_id": {
-			"$oid": "5dc663be703d3d174cb51fa9"
+			"$oid": "5dbf8233f587153c14c7708c"
 		},
-		"hoVaTen": "Nguyen Hien",
-		"soDienThoai": "0987689878",
+		"hoVaTen": "Hoài Thương",
+		"soDienThoai": "0852369741",
 		"taiKhoan": {
-			"quyen": 1,
-			"matKhau": "",
-			"tenDangNhap": ""
+			"quyen": 2,
+			"matKhau": "000000",
+			"tenDangNhap": "nv008"
 		},
-		"soCMND": "123568956",
-		"ngaySinh": "1999-11-25",
+		"soCMND": "258963147",
+		"ngaySinh": "1999-11-07",
 		"gioiTinh": false,
-		"phongban": "PB001",
-		"luongCoBan": 5e+06,
-		"email": "Hien@gmail.com",
+		"phongban": "PB003",
+		"luongCoBan": 1.2E+06,
+		"email": "thuong@gmail.com",
 		"maNV": "NV008"
 	},
 	{
 		"_id": {
-			"$oid": "5dc67ed4e8586927d4159c69"
+			"$oid": "5dbf8796f587153c14c7708d"
 		},
-		"hoVaTen": "Tran Dan",
-		"soDienThoai": "01258965478",
+		"hoVaTen": "Tú Quyên",
+		"soDienThoai": "0123658974",
 		"taiKhoan": {
 			"quyen": 1,
 			"matKhau": "000000",
 			"tenDangNhap": "nv009"
 		},
-		"soCMND": "235698745",
-		"ngaySinh": "1999-08-18",
-		"gioiTinh": true,
+		"soCMND": "254123687",
+		"ngaySinh": "2019-11-04",
+		"gioiTinh": false,
 		"phongban": "PB003",
-		"luongCoBan": 1.1e+06,
-		"email": "Dan123@gmail.com",
+		"luongCoBan": 1.2E+06,
+		"email": "quyen@gmail.com",
 		"maNV": "NV009"
 	},
 	{
 		"_id": {
-			"$oid": "5dc67f07e8586927d4159c6a"
+			"$oid": "5dbf880df587153c14c7708e"
 		},
-		"hoVaTen": "Nguyen Danh",
-		"soDienThoai": "0987876547",
+		"hoVaTen": "Phạm Huy",
+		"soDienThoai": "0741258963",
 		"taiKhoan": {
-			"quyen": 1,
+			"quyen": 2,
 			"matKhau": "000000",
 			"tenDangNhap": "nv0010"
 		},
-		"soCMND": "256321458",
-		"ngaySinh": "1999-05-05",
+		"soCMND": "256314789",
+		"ngaySinh": "1996-11-07",
+		"gioiTinh": true,
+		"phongban": "PB001",
+		"luongCoBan": 1.2E+06,
+		"email": "huy@gmail.com",
+		"maNV": "NV0010"
+	},
+	{
+		"_id": {
+			"$oid": "5dbfaf2bc95dff11545c3de8"
+		},
+		"hoVaTen": "Huy Hùng",
+		"soDienThoai": "0852365417",
+		"taiKhoan": {
+			"quyen": 1,
+			"matKhau": "000000",
+			"tenDangNhap": "nv0011"
+		},
+		"soCMND": "258963147",
+		"ngaySinh": "2019-11-04",
 		"gioiTinh": true,
 		"phongban": "PB003",
-		"luongCoBan": 2e+06,
-		"email": "Danh1@gmail.com",
-		"maNV": "NV0010"
+		"luongCoBan": 1.1E+06,
+		"email": "hunghuy@gmail.com",
+		"maNV": "NV0011"
+	},
+	{
+		"_id": {
+			"$oid": "5dbfcc24c95dff3734322be9"
+		},
+		"hoVaTen": "Huy Thinh",
+		"soDienThoai": "08224545421",
+		"taiKhoan": {
+			"quyen": 1,
+			"matKhau": "000000",
+			"tenDangNhap": "nv0012"
+		},
+		"soCMND": "258963147",
+		"ngaySinh": "1999-11-09",
+		"gioiTinh": true,
+		"phongban": "PB003",
+		"luongCoBan": 1.2E+06,
+		"email": "thinh@gmail.com",
+		"maNV": "NV0012"
+	},
+	{
+		"_id": {
+			"$oid": "5dbff1cce9494b340802d0ec"
+		},
+		"hoVaTen": "Nguyễn Thị Tý",
+		"soDienThoai": "0213654795",
+		"taiKhoan": {
+			"quyen": 1,
+			"matKhau": "000000",
+			"tenDangNhap": "nv0013"
+		},
+		"soCMND": "214536578",
+		"ngaySinh": "1999-11-22",
+		"gioiTinh": false,
+		"phongban": "PB002",
+		"luongCoBan": 1.2E+06,
+		"email": "Thi@gmail.com",
+		"maNV": "NV0013"
 	}
 ]
